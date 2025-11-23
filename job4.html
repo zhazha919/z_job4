@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>城市旅行写生本交流夜 · City Sketchbook Night</title>
+    <style>
+        /* 基础样式设置 */
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+
+        /* 页面主样式 */
+        .page {
+            display: inline-block;
+            background-color: #E3F7F7; /* 海盐青背景色 */
+            box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+            text-align: left;
+            max-width: 720px;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        /* 并集选择器 */
+        h1, h2, h3, h4, h5, h6 {
+            color: #2c5aa0;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 28px;
+            text-align: center;
+            color: #1a365d;
+            border-bottom: 3px solid #68d391;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #2c5aa0;
+            border-left: 5px solid #68d391;
+            padding-left: 15px;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #3182ce;
+        }
+
+        /* 段落样式 */
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #2d3748;
+            text-indent: 2em;
+            margin-bottom: 15px;
+        }
+
+        /* 伪元素选择器 */
+        p::first-letter {
+            font-size: 2em;
+            font-weight: bold;
+            color: #2c5aa0;
+            float: left;
+            line-height: 1;
+            margin-right: 8px;
+        }
+
+        div::first-line {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+
+        /* ID选择器 - 重要提示 */
+        p#intro {
+            font-size: 18px;
+            font-weight: bold;
+            color: #dc2626;
+            background-color: #fef2f2;
+            padding: 15px;
+            border-left: 4px solid #dc2626;
+            margin: 20px 0;
+        }
+
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 15px;
+        }
+
+        th, td {
+            border: 2px solid #68d391;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #68d391;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f0fff4;
+        }
+
+        /* 后代选择器 */
+        div table a {
+            color: #2c5aa0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        div table a:hover {
+            color: #dc2626;
+            text-decoration: underline;
+        }
+
+        /* 链接伪类 */
+        a:link {
+            color: #2c5aa0;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #4a5568;
+        }
+
+        a:hover {
+            color: #dc2626;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #e53e3e;
+        }
+
+        /* 带类名的链接 */
+        a.red {
+            color: #dc2626;
+            font-weight: bold;
+            background-color: #fef2f2;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        a.blue {
+            color: #2c5aa0;
+            font-weight: bold;
+            background-color: #ebf8ff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        /* 底部公告区 */
+        .notice {
+            background-color: #f0fff4;
+            border: 2px solid #68d391;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        .notice p {
+            text-indent: 0;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+
+        /* 链接区域样式 */
+        .links {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .links a {
+            margin: 0 15px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- 顶部标题区 -->
+        <div>
+            <h1>城市旅行写生本交流夜 · City Sketchbook Night - 趵突泉街专场</h1>
+        </div>
+
+        <!-- 活动介绍区 -->
+        <div>
+            <h2 id="intro">活动介绍</h2>
+            <p>在这个快节奏的城市生活中，我们常常忽略了身边的美好风景。城市旅行写生本交流夜邀请所有热爱旅行和绘画的朋友们，一起用画笔记录城市的每一个精彩瞬间。</p>
+            
+            <p>这次我们选择在济南著名的趵突泉街举办专场活动。这里有着深厚的历史文化底蕴，古色古香的建筑、清澈的泉水、熙熙攘攘的游客，都是我们写生的绝佳素材。无论是专业的画家还是业余的爱好者，都能在这里找到属于自己的创作灵感。</p>
+            
+            <p>Our journey of urban sketching is not just about drawing buildings and streets; it's about capturing the soul of a city. Through our sketchbooks, we preserve the memories of our travels and share the unique stories of each place we visit.</p>
+            
+            <p id="intro">重要提示：请参与者携带自己的写生本、画笔等绘画工具。活动将于晚上7点正式开始，欢迎提前到场交流。</p>
+        </div>
+
+        <!-- 活动报名信息表格区 -->
+        <div>
+            <h3>报名参与者信息</h3>
+            <table>
+                <tr>
+                    <th>姓名</th>
+                    <th>联系方式</th>
+                    <th>写生经验</th>
+                    <th>擅长风格</th>
+                    <th>参加理由</th>
+                </tr>
+                <tr>
+                    <td>张明</td>
+                    <td>138****5678</td>
+                    <td>3年</td>
+                    <td>水彩画</td>
+                    <td>喜欢用画笔记录城市变迁</td>
+                </tr>
+                <tr>
+                    <td>李华</td>
+                    <td>139****1234</td>
+                    <td>1年</td>
+                    <td>素描</td>
+                    <td>想学习更多写生技巧</td>
+                </tr>
+                <tr>
+                    <td>王美丽</td>
+                    <td>137****9876</td>
+                    <td>5年</td>
+                    <td>速写</td>
+                    <td>分享自己的旅行写生经验</td>
+                </tr>
+                <tr>
+                    <td>David Chen</td>
+                    <td>136****4567</td>
+                    <td>8年</td>
+                    <td>印象派</td>
+                    <td>体验济南的历史文化</td>
+                </tr>
+                <tr>
+                    <td>陈雨桐</td>
+                    <td>135****7890</td>
+                    <td>2年</td>
+                    <td>插画</td>
+                    <td>记录趵突泉的美丽景色</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 页面链接区 -->
+        <div class="links">
+            <div>
+                <a href="https://hongchenwusdnu.github.io/bookstore/job4.html" class="red">浏览旅途速写作品集</a>
+                <a href="job3.html" class="blue">记录旅行心得分享</a>
+            </div>
+        </div>
+
+        <!-- 底部公告区 -->
+        <div class="notice">
+            <h3>活动公告</h3>
+            <p>• 活动时间：每周五晚上7:00-9:00<br>
+            • 活动地点：济南市历下区趵突泉街1号文化中心<br>
+            • 参与费用：免费（需提前报名）</p>
+            
+            <p>• 报名方式：发送姓名+联系方式+绘画经验到邮箱 citysketch@example.com<br>
+            • 活动福利：现场提供茶水和小点心，优秀作品将在公众号展示<br>
+            • 注意事项：请遵守活动纪律，爱护场地设施</p>
+            
+            <p>• 我们相信，每一次的城市探索都是一次心灵的旅程。通过写生，我们不仅记录了城市的外在美，更感受到了城市的内在温度。期待与每一位热爱生活的朋友相遇在这个美好的夜晚！</p>
+        </div>
+    </div>
+</body>
+</html>
